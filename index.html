@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AGE VPN - Premium Access</title>
     <style>
-        /* --- CSS Variables & Reset --- */
         :root {
             --bg-body: #121212;
             --bg-card: #1e1e1e;
             --text-primary: #e0e0e0;
             --text-secondary: #a0a0a0;
-            --accent: #ff8c00; /* Vibrant Orange */
+            --accent: #ff8c00;
             --accent-hover: #ffb74d;
             --border-color: #333;
             --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.5);
@@ -30,7 +29,6 @@
             flex-direction: column;
         }
         
-        /* --- Top Install Bar (Header) --- */
         .install-bar { 
             background: var(--bg-card); 
             padding: 12px 24px; 
@@ -69,7 +67,6 @@
             transform: translateY(-2px);
         }
 
-        /* --- Main Content Area --- */
         .main-container { 
             padding: 40px 20px; 
             display: flex; 
@@ -78,7 +75,6 @@
             flex-grow: 1;
         }
 
-        /* --- Central Card --- */
         .card { 
             background: var(--bg-card); 
             width: 100%; 
@@ -92,7 +88,6 @@
             overflow: hidden;
         }
 
-        /* Glowing border effect at bottom */
         .card::after {
             content: '';
             position: absolute;
@@ -139,7 +134,6 @@
             padding: 0 10px;
         }
 
-        /* --- Enhanced Download Button Animation --- */
         .download-btn { 
             background: var(--accent); 
             color: #000; 
@@ -171,7 +165,6 @@
             box-shadow: 0 15px 30px rgba(255, 255, 255, 0.2);
         }
 
-        /* Footer credit */
         .footer-credit {
             text-align: center;
             font-size: 12px;
@@ -179,7 +172,6 @@
             padding: 20px;
         }
 
-        /* Responsive adjustments */
         @media (max-width: 480px) {
             .install-bar { padding: 10px 15px; }
             .app-info img { width: 40px; height: 40px; }
@@ -201,7 +193,7 @@
             <div class="app-subtitle">Secure Access</div>
         </div>
     </div>
-    <a href="http://165.154.241.97:8080/AGEVPN_v4_Light_TopUpdate_Final.apk" class="install-btn">Install</a>
+    <a href="http://165.154.241.97:8080/AGEVPN_v4_Light_TopUpdate_Final.apk" target="_blank" class="install-btn">Install</a>
 </header>
 
 <!-- Main Section -->
@@ -215,7 +207,7 @@
         <p>အမြန်ဆုံးနဲ့ လုံခြုံမှုအရှိဆုံး VPN ဝန်ဆောင်မှု။ သင်၏အင်တာနက် လုံခြုံမှုကို အပြည့်အဝ တာဝန်ယူပေးပါသည်။</p>
         
         <!-- Download Button -->
-        <a href="http://165.154.241.97:8080/AGEVPN_v4_Light_TopUpdate_Final.apk" class="download-btn">
+        <a href="http://165.154.241.97:8080/AGEVPN_v4_Light_TopUpdate_Final.apk" target="_blank" class="download-btn">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
             Download Latest APK
         </a>
