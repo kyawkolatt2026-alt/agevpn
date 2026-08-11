@@ -6,14 +6,14 @@
     <title>AGE VPN - Premium Access</title>
     <style>
         :root {
-            --bg-body: #121212;
-            --bg-card: #1e1e1e;
+            --bg-body: #0b1329;
+            --bg-card: #131c38;
             --text-primary: #e0e0e0;
-            --text-secondary: #a0a0a0;
-            --accent: #ff8c00;
-            --accent-hover: #ffb74d;
-            --border-color: #333;
-            --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.5);
+            --text-secondary: #94a3b8;
+            --accent: #0066ff;
+            --accent-hover: #3b82f6;
+            --border-color: #1e293b;
+            --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.6);
             --font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         }
 
@@ -47,12 +47,12 @@
             border-radius: 12px; 
             box-shadow: 0 4px 10px rgba(0,0,0,0.3);
         }
-        .app-title { font-weight: 800; font-size: 18px; letter-spacing: 0.5px; }
+        .app-title { font-weight: 800; font-size: 18px; letter-spacing: 0.5px; color: #fff; }
         .app-subtitle { font-size: 13px; color: var(--text-secondary); }
         
         .install-btn { 
             background: var(--accent); 
-            color: #000; 
+            color: #fff; 
             padding: 10px 24px; 
             border-radius: 50px; 
             text-decoration: none; 
@@ -136,7 +136,7 @@
 
         .download-btn { 
             background: var(--accent); 
-            color: #000; 
+            color: #fff; 
             padding: 18px 30px; 
             border-radius: 14px; 
             text-decoration: none; 
@@ -153,22 +153,22 @@
         }
         
         @keyframes subtle-breath {
-            0%, 100% { transform: scale(1); box-shadow: 0 5px 15px rgba(255, 140, 0, 0.3); }
-            50% { transform: scale(1.03); box-shadow: 0 8px 25px rgba(255, 140, 0, 0.5); }
+            0%, 100% { transform: scale(1); box-shadow: 0 5px 15px rgba(0, 102, 255, 0.3); }
+            50% { transform: scale(1.03); box-shadow: 0 8px 25px rgba(0, 102, 255, 0.5); }
         }
         
         .download-btn:hover { 
-            background: #fff; 
-            color: #000;
+            background: var(--accent-hover); 
+            color: #fff;
             animation: none;
             transform: translateY(-3px) scale(1.02); 
-            box-shadow: 0 15px 30px rgba(255, 255, 255, 0.2);
+            box-shadow: 0 15px 30px rgba(0, 102, 255, 0.4);
         }
 
         .footer-credit {
             text-align: center;
             font-size: 12px;
-            color: #444;
+            color: var(--text-secondary);
             padding: 20px;
         }
 
